@@ -5,7 +5,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://pastperfeckt.github.io/interactiveCV/",
+  site: "https://pastperfeckt.github.io/interactiveCV",
   integrations: [
     tailwind(),
     sitemap({

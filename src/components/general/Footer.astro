@@ -7,7 +7,7 @@ import { info } from "@data";
 >
   <p class="dark:text-light text-right my-8">
   </p>
-  <div class="grid grid-cols-3 gap-4">
+  <div class="grid grid-cols-4 gap-4">
     <a
       aria-label="Social Media"
       href={info.socialMedia.linkedin}
@@ -34,6 +34,28 @@ import { info } from "@data";
       </svg>
     </a>
     <a
+    aria-label="Social Media"
+    href={info.socialMedia.facebook}
+    target="_blank"
+    class="footer-icons"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="feather feather-facebook"
+      ><path
+        d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+      ></path>
+    </svg>
+  </a>
+    <a
       aria-label="Social Media"
       href={info.socialMedia.email}
       target="_blank"
@@ -56,26 +78,26 @@ import { info } from "@data";
       </svg>
     </a>
     <a
-      aria-label="Social Media"
-      href={info.socialMedia.facebook}
-      target="_blank"
-      class="footer-icons"
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="18"
-        height="18"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="feather feather-facebook"
-        ><path
-          d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
-        ></path>
-      </svg>
-    </a>
+    aria-label="Social Media"
+    href={info.socialMedia.phone}
+    target="_blank"
+    class="footer-icons"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="18"
+      height="18"
+      viewBox="0 0 64 64"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="feather feather-telephone"
+      ><path
+        d="M58.9 47l-10.4-6.8a4.8 4.8 0 0 0-6.5 1.3c-2.4 2.9-5.3 7.7-16.2-3.2S19.6 24.4 22.5 22a4.8 4.8 0 0 0 1.3-6.5L17 5.1c-.9-1.3-2.1-3.4-4.9-3S2 6.6 2 15.6s7.1 20 16.8 29.7S39.5 62 48.4 62s13.2-8 13.5-10-1.7-4.1-3-5z"
+      ></path>
+    </svg>
+  </a>
   </div>
 </footer>

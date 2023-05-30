@@ -1,7 +1,7 @@
 export const info = {
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
+  baseUrl: "https://www.paulpellekoorne.de",
   name: "Paul Pellekoorne",
-  jobDescription: "Web Developer",
+  jobDescription: "Project Manager",
   about: `Dynamic and results-driven Project Manager with expertise in the field of mobility.
   Passionate about teamwork, programming, automation, and creativity.
   Demonstrated ability to steer projects from inception to successful completion.

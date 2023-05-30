@@ -1,5 +1,5 @@
 export const info = {
-  baseUrl: "https://www.paulpellekoorne.de",
+  baseUrl: "https://paulpellekoorne.de",
   name: "Paul Pellekoorne",
   jobDescription: "Project Manager",
   about: `Dynamic and results-driven Project Manager with expertise in the field of mobility.

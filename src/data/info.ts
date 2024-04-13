@@ -16,14 +16,24 @@ export const info = {
 
   experience: [
     {
+      name: "Miovision (aquired TTS)",
+      location: "Munich, Germany",
+      startDate: "Jan 2024",
+      endDate: "present",
+      description: [
+        "✓ Automated traffic signal identification and controller analysis through different data sources.",
+        "✓ More to come soon!",
+      ],
+    },
+    {
       name: "Allane SE",
       location: "Pullach, Germany",
       startDate: "Jun 2023",
-      endDate: "Present",
+      endDate: "Jan 2024",
       description: [
-        "✓ Lead the IT Modernization Program, overseeing the coordination of multiple modernization projects and designing objectives and processes.",
-        "✓ Drive strategic initiatives to enhance operational efficiency and support business growth.",
-        "✓ Collaborate with cross-functional teams to ensure alignment with project goals and deliverables.",
+        "✓ Lead the IT Modernization Program, orchestrating the transition from on-premise systems to hyperscaler platforms through coordinated project management.",
+        "✓ Pioneered strategic initiatives to optimize operational efficiency and ensure regulatory compliance within the finance sector.",
+        "✓ Directed a master data management project, architecting a new solution to streamline data operations.",
       ],
     },
 
@@ -46,7 +56,7 @@ export const info = {
     },
 
     {
-      name: "Traffic Technology Services Europe",
+      name: "Traffic Technology Services (TTS)",
       location: "Munich, Germany & Portland, OR",
       startDate: "Jan 2016",
       endDate: "Apr 2021",

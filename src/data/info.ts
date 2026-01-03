@@ -2,50 +2,45 @@ export const info = {
   baseUrl: "https://paulpellekoorne.de",
   name: "Paul Pellekoorne",
   jobDescription: "Project Manager",
-  about: `Dynamic and results-driven Project Manager with expertise in the field of mobility.
-  Passionate about teamwork, programming, automation, and creativity.
-  Demonstrated ability to steer projects from inception to successful completion.
-  Committed to driving business growth and leveraging innovative solutions to optimize processes.
+  about: `Results-driven Product & Program Manager specializing in mobility, cloud transformation, and data-driven platforms. Experienced in bridging market needs with international engineering teams, leading complex technical migrations, and delivering scalable products from concept to production.
   `,
-  //about: `I'm a project manager based in Munich, Germany.
-  //I feel at home in the field of mobility. I love teamwork, programming, automation and creativity.
-  //I am grateful that after graduating I was able to experience, accompany, support and help steer the development of TTS Europe from the very beginning.
-  //Afterwards, I was able to gain experience as a project manager at Accenture, where I took responsibility for three projects.
-  //Since June 2023 I'm driving the IT transformation of Allane SE.
-  //`,
 
   experience: [
     {
-      name: "Miovision (aquired TTS)",
-      location: "Munich, Germany",
+      name: "Miovision (acquired TTS)",
+      location: "Product Manager (I2X Product Line)",
       startDate: "Jan 2024",
       endDate: "present",
       description: [
-        "✓ Automated traffic signal identification and controller analysis through different data sources.",
-        "✓ More to come soon!",
+        "",
+        "✓ Own the Infrastructure-to-Everything (I2X) product line, defining roadmap, priorities, and success metrics.",
+        "✓ Act as the strategic interface between European customers and North American engineering teams (Architecture, Data Science)",
+        "✓ Lead a large-scale AWS migration, modernizing infrastructure and enabling scalability, reliability, and faster feature delivery.",
+        "✓ Drive product adoption growth in Europe, scaling from <2,000 to >10,500 connected intersections in 2025.",
+        "✓ Manage the strategic relationship with a key enterprise client, aligning product evolution with long-term business objectives during post-acquisition integration.",
       ],
     },
     {
       name: "Allane SE",
-      location: "Pullach, Germany",
+      location: "Program Manager",
       startDate: "Jun 2023",
       endDate: "Jan 2024",
       description: [
-        "✓ Lead the IT Modernization Program, orchestrating the transition from on-premise systems to hyperscaler platforms through coordinated project management.",
-        "✓ Pioneered strategic initiatives to optimize operational efficiency and ensure regulatory compliance within the finance sector.",
-        "✓ Directed a master data management project, architecting a new solution to streamline data operations.",
+        "✓ Led a company-wide IT modernization program, transitioning core systems from on-premise infrastructure to AWS.",
+        "✓ Initiated and delivered strategic programs to improve operational efficiency and regulatory compliance in a highly regulated finance environment.",
+        "✓ Directed a master data management (MDM) initiative, designing and implementing a new data architecture to streamline enterprise-wide data operations.",
       ],
     },
 
     {
       name: "Accenture",
-      location: "Munich, Germany",
+      location: "Project Manager",
       startDate: "May 2021",
       endDate: "May 2023",
       description: [
-        "✓ Managed and delivered agile software development projects in the automotive industry, ensuring successful outcomes within budget and timeline constraints.",
-        "✓ Led the content management of an eShop, resulting in improved customer satisfaction, employee satisfaction, product quality, and revenue.",
-        "✓ Conducted training sessions on project management, teamwork, and motivation.",
+        "✓ Managed two agile software development teams (10 engineers total) delivering automotive software solutions on time and within budget.",
+        "✓ Led an eCommerce web store initiative with a 3-person cross-functional team, improving customer experience, internal workflows, product quality, and revenue.",
+        "✓ Designed and delivered training sessions on project management, team collaboration, and motivation for cross-functional teams.",
       ],
       //description: [
       //  "✓ Multi-project management of agile software development projects in the automotive industry",
@@ -57,13 +52,13 @@ export const info = {
 
     {
       name: "Traffic Technology Services (TTS)",
-      location: "Munich, Germany & Portland, OR",
+      location: "Traffic Engineer",
       startDate: "Jan 2016",
       endDate: "Apr 2021",
       description: [
-        "✓ Spearheaded the development of emulation-based traffic light phase forecasts, resulting in the realization of the first commercial V2I service in Germany.",
-        "✓ Successfully managed end-to-end project lifecycle, including conceptual design, development, testing, deployment, customer relations, and IT/Operations.",
-        "✓ Contributed to R&D projects and held patents in the field.",
+        "✓ Led the development of emulation-based traffic light phase forecasting, enabling the first commercial V2I service in Germany.",
+        "✓ Managed the entire product lifecycle: concept, development, testing, deployment, customer engagement, and IT/operations.",
+        "✓ Contributed to multiple R&D initiatives and co-authored patents in intelligent traffic systems.",
       ],
       //description: [
       //  "✓ Product Owner and Project Manager for emulation-based traffic light phase forecasts",
@@ -75,7 +70,7 @@ export const info = {
 
     {
       name: "German University of Technology",
-      location: "Muscat, Oman",
+      location: "Teaching Assistant (Muscat, Oman)",
       startDate: "Sep 2014",
       endDate: "Feb 2015",
       description: [
@@ -117,7 +112,6 @@ export const info = {
       endDate: "2009",
       description: [
         "✓ Excellence class in piano lessons since 2006",
-        "✓ Additional commitment as a tutor and mediator",
         "✓ Advanced courses in mathematics and music",
       ],
     },

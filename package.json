@@ -14,5 +14,8 @@
     "@astrojs/tailwind": "^6.0.2",
     "astro": "^5.17.2",
     "astro-robots-txt": "^1.0.0"
+  },
+  "overrides": {
+    "rollup": "^4.59.0"
   }
 }

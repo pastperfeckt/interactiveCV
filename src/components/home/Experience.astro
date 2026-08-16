@@ -4,6 +4,20 @@ import { IExperiences } from "@types";
 const { title, details } = Astro.props as IExperiences;
 ---
 
+<style>
+  details summary {
+    list-style: none;
+  }
+
+  details summary::-webkit-details-marker {
+    display: none;
+  }
+
+  details[open] .expand-icon {
+    transform: rotate(90deg);
+  }
+</style>
+
 <section
   class="flex items-start justify-between flex-col sm:flex-row dark:text-light"
 >
@@ -20,10 +34,24 @@ const { title, details } = Astro.props as IExperiences;
           </div>
           <p class="text-sm mt-3 text-blue">{item.location}</p>
           <ul class="mt-3">
-            {item.description.map((item) => (
-              <li class="dark:text-gray">{item}</li>
+            {item.description.map((entry) => (
+              <li class="dark:text-gray">{entry}</li>
             ))}
           </ul>
+
+          {item.extraDescription && item.extraDescription.length > 0 && (
+            <details class="mt-3">
+              <summary class="cursor-pointer text-sm text-blue select-none inline-flex items-center gap-2">
+                <span class="expand-icon inline-block transition-transform duration-200 text-xs">▸</span>
+                Additional commitments
+              </summary>
+              <ul class="mt-3">
+                {item.extraDescription.map((entry) => (
+                  <li class="dark:text-gray">{entry}</li>
+                ))}
+              </ul>
+            </details>
+          )}
         </div>
       ))
     }

@@ -2,7 +2,7 @@ export const info = {
   baseUrl: "https://paulpellekoorne.de",
   name: "Paul Pellekoorne",
   jobDescription: "Project Manager",
-  about: `Results-driven Product & Program Manager specializing in mobility, cloud transformation, and data-driven platforms. Experienced in bridging market needs with international engineering teams, leading complex technical migrations, and delivering scalable products from concept to production.
+  about: `Product & Program Manager specializing in mobility, cloud transformation, and data-driven platforms. Experienced in bridging market needs with international engineering teams and leading complex technical migrations.
   `,
 
   experience: [
@@ -27,7 +27,6 @@ export const info = {
       endDate: "Jan 2024",
       description: [
         "✓ Led a company-wide IT modernization program, transitioning core systems from on-premise infrastructure to AWS.",
-        "✓ Initiated and delivered strategic programs to improve operational efficiency and regulatory compliance in a highly regulated finance environment.",
         "✓ Directed a master data management (MDM) initiative, designing and implementing a new data architecture to streamline enterprise-wide data operations.",
       ],
     },
@@ -89,36 +88,19 @@ export const info = {
       description: [
         "✓ Master thesis: Predictive Impact Evaluation on Urban Traffic Guidance Measures (1.3)",
         "✓ Study project at DriveNow on dynamic pricing systems for free-floating car sharing services (1.0)",
-        "✓ Bachelor Thesis: Building Information Modeling (1.0)",
-        "✓ Since 2011 Tutor of Higher Mathematics I and II"
       ],
-    },
-    {
-      name: "Additional commitment",
-      location: "Worldwide",
-      startDate: "2010",
-      endDate: "2015",
-      description: [
+      extraDescription: [
+        "✓ Bachelor Thesis: Building Information Modeling (1.0)",
+        "✓ Since 2011 Tutor of Higher Mathematics I and II",
         "✓ Participated as a reviewer in over 30 accreditation and evaluation procedures.",
         "✓ Served as an expert committee member of the accreditation agency ASIIN e.V.",
         "✓ Organized and assessed aptitude assessment procedures.",
-        "✓ Member of appeal committees."
-      ],
-    },
-    {
-      name: "Baccalaureate / Abitur (2.4)",
-      location: "Munich, Germany",
-      startDate: "2000",
-      endDate: "2009",
-      description: [
-        "✓ Excellence class in piano lessons since 2006",
-        "✓ Advanced courses in mathematics and music",
+        "✓ Member of appeal committees.",
       ],
     },
   ],
 
   socialMedia: {
-    facebook: "https://www.facebook.com/paul.pellekoorne",
     email: "mailto:paul@pellekoorne.de",
     linkedin: "https://www.linkedin.com/in/paulpellekoorne/",
     phone: "tel:004915253484139",

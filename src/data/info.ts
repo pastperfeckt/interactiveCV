@@ -8,11 +8,11 @@ export const info = {
   experience: [
     {
       name: "Miovision (acquired TTS)",
-      location: "Product Manager (I2X Product Line)",
+      role: "Product Manager (I2X Product Line)",
+      logo: "/assets/images/company-logos/miovision.jpg",
       startDate: "Jan 2024",
       endDate: "present",
       description: [
-        "",
         "✓ Own the Infrastructure-to-Everything (I2X) product line, defining roadmap, priorities, and success metrics.",
         "✓ Act as the strategic interface between European customers and North American engineering teams (Architecture, Data Science)",
         "✓ Lead a large-scale AWS migration, modernizing infrastructure and enabling scalability, reliability, and faster feature delivery.",
@@ -22,7 +22,8 @@ export const info = {
     },
     {
       name: "Allane SE",
-      location: "Program Manager",
+      role: "Program Manager",
+      logo: "/assets/images/company-logos/allane.jpg",
       startDate: "Jun 2023",
       endDate: "Jan 2024",
       description: [
@@ -33,7 +34,8 @@ export const info = {
 
     {
       name: "Accenture",
-      location: "Project Manager",
+      role: "Project Manager",
+      logo: "/assets/images/company-logos/accenture.jpg",
       startDate: "May 2021",
       endDate: "May 2023",
       description: [
@@ -41,17 +43,12 @@ export const info = {
         "✓ Led an eCommerce web store initiative with a 3-person cross-functional team, improving customer experience, internal workflows, product quality, and revenue.",
         "✓ Designed and delivered training sessions on project management, team collaboration, and motivation for cross-functional teams.",
       ],
-      //description: [
-      //  "✓ Multi-project management of agile software development projects in the automotive industry",
-      //  "✓ Project lead of the content management of an eShop",
-      //  "✓ Measured increase in customer satisfaction, employee satisfaction, product quality and revenue",
-      //  "✓ Trainer of courses on project management, teamwork and motivation",
-      //],
     },
 
     {
       name: "Traffic Technology Services (TTS)",
-      location: "Traffic Engineer",
+      role: "Traffic Engineer",
+      logo: "/assets/images/company-logos/tts.jpg",
       startDate: "Jan 2016",
       endDate: "Apr 2021",
       description: [
@@ -59,17 +56,12 @@ export const info = {
         "✓ Managed the entire product lifecycle: concept, development, testing, deployment, customer engagement, and IT/operations.",
         "✓ Contributed to multiple R&D initiatives and co-authored patents in intelligent traffic systems.",
       ],
-      //description: [
-      //  "✓ Product Owner and Project Manager for emulation-based traffic light phase forecasts",
-      //  "✓ Realization of the first commercial V2I service in Germany",
-      //  "✓ Development of a traffic light phase forecast with emulators for German ECUs",
-      //  "✓ Conceptual Design, Development, Testing, Deployment, Customer Relations and IT/Operations",
-      //  "✓ R&D projects, patent holder"
     },
 
     {
       name: "German University of Technology",
-      location: "Teaching Assistant (Muscat, Oman)",
+      role: "Teaching Assistant (Muscat, Oman)",
+      logo: "/assets/images/company-logos/gutech2.png",
       startDate: "Sep 2014",
       endDate: "Feb 2015",
       description: [
@@ -82,7 +74,8 @@ export const info = {
   education: [
     {
       name: "M.Sc. Environmental Engineering (1.4)",
-      location: "Technical University of Munich",
+      role: "Technical University of Munich",
+      logo: "/assets/images/company-logos/tum.png",
       startDate: "2009",
       endDate: "2015",
       description: [
